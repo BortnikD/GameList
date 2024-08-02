@@ -27,7 +27,7 @@
     ```
 2. Перейдите в директорию проекта:
     ```sh
-    cd GameList
+    cd main
     ```
 3. Установите зависимости для бэкэнда:
     ```sh
@@ -37,10 +37,15 @@
     ```sh
     python manage.py migrate
     ```
-5. Запустите сервер разработки Django:
+5. Выполните загрузку фикстур:
+    ```sh
+    python manage.py loaddata games/fixtures/gameType.json games/fixtures/game.json
+    ```
+6. Запустите сервер разработки Django:
     ```sh
     python manage.py runserver
     ```
+7. Зайдите по сгенированной в терминале ссылке
 
 ## Использование
 ### Просмотр списка игр
