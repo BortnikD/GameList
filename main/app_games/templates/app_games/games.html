@@ -1,0 +1,50 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Store</title>
+    <link rel="stylesheet" href="{% static 'css/games_card.css' %}" />
+  </head>
+  <body>
+    <header>
+      <h1>Game Store</h1> 
+    </header>
+    
+    <main>
+      <section class="controls">
+        <div class="search-bar">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search for games..."
+          />
+          <button id="search-by-name" class="search-button">Найти</button>
+        </div>
+        
+        <div class="sort-options">
+          <label for="sort-select">Sort by:</label>
+          <select id="sort-select">
+            <option value="default">Default</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="rate">Rating</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="game-list"></section>
+
+      <button id="load-more" class="load-more">Load More Games</button>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Game Store. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="{% static 'js/games/games_card.js' %}"></script>
+    <script type="module" src="{% static 'js/games/searchSort.js' %}"></script>
+  </body>
+</html>
