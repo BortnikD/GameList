@@ -1,1 +1,134 @@
-[{"model": "games.game", "pk": 1, "fields": {"name": "The Witcher 3", "description": "Игра в жанре РПГ, вы играете за ведьмака Геральта, который хочет найти свою приемную дочь Цири, которую преследует смертельная опасность", "price": 1000, "rate": 10, "game_type": 1}}, {"model": "games.game", "pk": 2, "fields": {"name": "The Witcher 2", "description": "Игра в жанре РПГ, вы играете за ведьмака Геральта, который пытается отыскать убийцу королей", "price": 400, "rate": 8, "game_type": 1}}, {"model": "games.game", "pk": 3, "fields": {"name": "The Witcher", "description": "Игра в жанре РПГ, вы играете за ведьмака Геральта, который потерял свою память и ищет ответы на свои вопросы", "price": 200, "rate": 8, "game_type": 1}}, {"model": "games.game", "pk": 5, "fields": {"name": "Battlefield 4", "description": "В данной игре вам вместе с другими 63 игроками биться за превосходство над точками, используя при этом разнообразную военную технику", "price": 1000, "rate": 10, "game_type": 4}}, {"model": "games.game", "pk": 6, "fields": {"name": "Battlefield 5", "description": "В данной игре вам вместе с другими 63 игроками биться за превосходство над точками, используя при этом разнообразную военную технику времен второй мировой войны", "price": 1200, "rate": 8, "game_type": 4}}, {"model": "games.game", "pk": 7, "fields": {"name": "Battlefield 2042", "description": "В данной игре вам вместе с другими 63 игроками биться за превосходство над точками, используя при этом разнообразную военную технику", "price": 2000, "rate": 6, "game_type": 4}}, {"model": "games.game", "pk": 8, "fields": {"name": "Warcraft 3", "description": "Игра в которой вам предстоит отыграть за разные расы существ мира варкрафта", "price": 2000, "rate": 10, "game_type": 3}}, {"model": "games.game", "pk": 9, "fields": {"name": "Detroit: Become Human", "description": "Detroit: Become Human — приключенческая компьютерная игра с элементами «интерактивного кино», разработанная французской студией Quantic Dream и выпущенная компанией Sony Interactive Entertainment для PlayStation 4 в мае 2018 года; в декабре 2019 года игра была перевыпущена на Windows", "price": 1200, "rate": 9, "game_type": 2}}, {"model": "games.game", "pk": 10, "fields": {"name": "God of War", "description": "серия компьютерных игр в экшн-жанрах hack and slash и action-adventure. Основана на древнегреческой и скандинавской мифологии. Главным героем всех игр серии является спартанский воин Кратос, бросивший вызов богам.", "price": 2000, "rate": 9, "game_type": 1}}, {"model": "games.game", "pk": 11, "fields": {"name": "Halo", "description": "медиафраншиза боевой фантастики, созданная компанией Bungie. Основана на оригинальной трилогии компьютерных игр в жанре шутера от первого лица.", "price": 300, "rate": 10, "game_type": 5}}, {"model": "games.game", "pk": 12, "fields": {"name": "Halo 2", "description": "Halo 2 — компьютерная игра в жанре шутера от первого лица, разработанная компанией Bungie и изданная Microsoft Game Studios. Игра была выпущена в 2004 году для консоли Xbox, в 2007 году — для Windows, в 2014 году переиздана для Xbox One, а в 2020 году состоялся повторный релиз версии для Windows.", "price": 400, "rate": 9, "game_type": 5}}, {"model": "games.game", "pk": 13, "fields": {"name": "Halo 3", "description": "Halo 3 — компьютерная игра в жанре шутера от первого лица, созданная компанией Bungie Studios. Игра является продолжением истории Halo: Combat Evolved и Halo 2", "price": 400, "rate": 8, "game_type": 5}}]
+[
+  {
+    "model": "games.game",
+    "pk": 1,
+    "fields": {
+      "name": "The Witcher 3",
+      "description": "Игра в жанре РПГ, вы играете за ведьмака Геральта, который хочет найти свою приемную дочь Цири, которую преследует смертельная опасность",
+      "price": 1000,
+      "rate": 10,
+      "game_type": 1
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 2,
+    "fields": {
+      "name": "The Witcher 2",
+      "description": "Игра в жанре РПГ, вы играете за ведьмака Геральта, который пытается отыскать убийцу королей",
+      "price": 400,
+      "rate": 8,
+      "game_type": 1
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 3,
+    "fields": {
+      "name": "The Witcher",
+      "description": "Игра в жанре РПГ, вы играете за ведьмака Геральта, который потерял свою память и ищет ответы на свои вопросы",
+      "price": 200,
+      "rate": 8,
+      "game_type": 1
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 5,
+    "fields": {
+      "name": "Battlefield 4",
+      "description": "В данной игре вам вместе с другими 63 игроками биться за превосходство над точками, используя при этом разнообразную военную технику",
+      "price": 1000,
+      "rate": 10,
+      "game_type": 4
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 6,
+    "fields": {
+      "name": "Battlefield 5",
+      "description": "В данной игре вам вместе с другими 63 игроками биться за превосходство над точками, используя при этом разнообразную военную технику времен второй мировой войны",
+      "price": 1200,
+      "rate": 8,
+      "game_type": 4
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 7,
+    "fields": {
+      "name": "Battlefield 2042",
+      "description": "В данной игре вам вместе с другими 63 игроками биться за превосходство над точками, используя при этом разнообразную военную технику",
+      "price": 2000,
+      "rate": 6,
+      "game_type": 4
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 8,
+    "fields": {
+      "name": "Warcraft 3",
+      "description": "Игра в которой вам предстоит отыграть за разные расы существ мира варкрафта",
+      "price": 2000,
+      "rate": 10,
+      "game_type": 3
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 9,
+    "fields": {
+      "name": "Detroit: Become Human",
+      "description": "Detroit: Become Human — приключенческая компьютерная игра с элементами «интерактивного кино», разработанная французской студией Quantic Dream и выпущенная компанией Sony Interactive Entertainment для PlayStation 4 в мае 2018 года; в декабре 2019 года игра была перевыпущена на Windows",
+      "price": 1200,
+      "rate": 9,
+      "game_type": 2
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 10,
+    "fields": {
+      "name": "God of War",
+      "description": "серия компьютерных игр в экшн-жанрах hack and slash и action-adventure. Основана на древнегреческой и скандинавской мифологии. Главным героем всех игр серии является спартанский воин Кратос, бросивший вызов богам.",
+      "price": 2000,
+      "rate": 9,
+      "game_type": 1
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 11,
+    "fields": {
+      "name": "Halo",
+      "description": "медиафраншиза боевой фантастики, созданная компанией Bungie. Основана на оригинальной трилогии компьютерных игр в жанре шутера от первого лица.",
+      "price": 300,
+      "rate": 10,
+      "game_type": 5
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 12,
+    "fields": {
+      "name": "Halo 2",
+      "description": "Halo 2 — компьютерная игра в жанре шутера от первого лица, разработанная компанией Bungie и изданная Microsoft Game Studios. Игра была выпущена в 2004 году для консоли Xbox, в 2007 году — для Windows, в 2014 году переиздана для Xbox One, а в 2020 году состоялся повторный релиз версии для Windows.",
+      "price": 400,
+      "rate": 9,
+      "game_type": 5
+    }
+  },
+  {
+    "model": "games.game",
+    "pk": 13,
+    "fields": {
+      "name": "Halo 3",
+      "description": "Halo 3 — компьютерная игра в жанре шутера от первого лица, созданная компанией Bungie Studios. Игра является продолжением истории Halo: Combat Evolved и Halo 2",
+      "price": 400,
+      "rate": 8,
+      "game_type": 5
+    }
+  }
+]
