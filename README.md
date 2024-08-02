@@ -25,27 +25,11 @@
     ```sh
     git clone https://github.com/BortnikD/GameList.git
     ```
-2. Установите зависимости для бэкэнда:
+2. Запустите подготовленный скрипт
     ```sh
-    pip install -r requirements.txt
+    ./runApp.sh
     ```
-3. Перейдите в директорию проекта:
-    ```sh
-    cd main
-    ```
-4. Выполните миграции:
-    ```sh
-    python manage.py migrate
-    ```
-5. Выполните загрузку фикстур:
-    ```sh
-    python manage.py loaddata games/fixtures/gameType.json games/fixtures/game.json
-    ```
-6. Запустите сервер разработки Django:
-    ```sh
-    python manage.py runserver
-    ```
-7. Зайдите по сгенерированной в терминале ссылке
+3. Зайдите по сгенерированной в терминале ссылке
 
 ## Использование
 ### Просмотр списка игр
