@@ -1,5 +1,4 @@
 @echo off
-cd GameList
 call pip install -r requirements.txt
 if %errorlevel% neq 0 exit /b %errorlevel%
 cd main
