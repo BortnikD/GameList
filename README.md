@@ -26,8 +26,13 @@
     git clone https://github.com/BortnikD/GameList.git
     ```
 2. Запустите подготовленный скрипт
+    Для линукс:
     ```sh
     ./runApp.sh
+    ```
+    Для виндовс:
+    ```sh
+    runApp.bat
     ```
 3. Зайдите по сгенерированной в терминале ссылке
 
